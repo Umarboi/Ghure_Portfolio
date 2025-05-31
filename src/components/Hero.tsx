@@ -44,7 +44,6 @@ const Hero = () => {
 
           <a
             href="/public/resume.pdf"
-            download
             className="inline-block"
           >
 
