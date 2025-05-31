@@ -20,7 +20,7 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <div className="w-16 h-16 rounded-full flex items-center justify-center overflow-hidden border-2 border-white">
               <img 
-                src='public\lovable-uploads\efd7d867-116b-432e-871b-4cdc6525979a.png' 
+                src='/lovable-uploads/efd7d867-116b-432e-871b-4cdc6525979a.png' 
                 alt="Ghure Mohd Umar" 
                 className="w-full h-full object-cover object-center"
               />
