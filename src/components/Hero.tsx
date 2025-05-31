@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="mb-8">
             <div className="w-32 h-32 rounded-full mx-auto mb-6 flex items-center justify-center shadow-xl overflow-hidden border-white">
               <img 
-                src="/lovable-uploads/efd7d867-116b-432e-871b-4cdc6525979a.png" 
+                src={`${import.meta.env.BASE_URL}lovable-uploads/efd7d867-116b-432e-871b-4cdc6525979a.png`} 
                 alt="Ghure Mohd Umar" 
                 className="w-full h-full object-cover object-center"
               />
