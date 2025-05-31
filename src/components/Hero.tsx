@@ -43,7 +43,7 @@ const Hero = () => {
           </Card>
 
           <a
-            href="/resume.pdf"
+            href="/public/resume.pdf"
             download
             className="inline-block"
           >
