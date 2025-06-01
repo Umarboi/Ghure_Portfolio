@@ -34,6 +34,19 @@ const Hero = () => {
             <p className="text-lg text-blue-300">
               Trainee Apprentice at Aker Solutions | Offshore Project Experience
             </p>
+                      {/* Logo Icons Section */}
+            <div className="flex flex-wrap justify-center gap-6 mt-8">
+              {[
+                { src: `${import.meta.env.BASE_URL}excel.jpg`, alt: "Excel" },
+                { src: `${import.meta.env.BASE_URL}navisworks.png`, alt: "Navisworks" },
+                { src: `${import.meta.env.BASE_URL}aveva.png`, alt: "AVEVA" },
+                { src: `${import.meta.env.BASE_URL}pro-dm.png`, alt: "ProArc" }
+              ].map((logo, index) => (
+                <div key={index} className="w-20 h-20 rounded-full flex items-center justify-center shadow-md p-2 transition-transform duration-300 hover:scale-110 animate-rotate-slow">
+                  <img src={logo.src} alt={logo.alt} className="object-contain h-full w-full rounded-full" />
+              </div>
+            ))}
+        </div>
           </div>
 
           <Card className="bg-white/10 backdrop-blur-sm border-white/20 p-6 mb-8">
@@ -43,7 +56,7 @@ const Hero = () => {
           </Card>
 
           <a
-            href="/public/resume.pdf"
+            href="public/resume.pdf"
             className="inline-block"
           >
 

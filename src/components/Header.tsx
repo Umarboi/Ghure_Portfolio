@@ -51,7 +51,7 @@ const Header = () => {
 
           <div className="flex items-center space-x-2">
   <a
-    href="mailto:ghuremohdumar@gmail.com"
+    href="mailto:enquire.umar@gmail.com"
     target="_blank"
     rel="noopener noreferrer"
   >
