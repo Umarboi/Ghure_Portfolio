@@ -143,13 +143,7 @@ const Contact = () => {
             <CardContent className="p-6 text-center">
               <h3 className="text-xl font-semibold mb-4">Available for Opportunities</h3>
               <p className="mb-6 text-slate-800">Seeking Instrumentation Engineer positions in oil & gas or energy sectors</p>
-              <a href="public/resume.pdf" download className="inline-block">
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button variant="outline" className="border-white text-white hover:bg-white hover:text-tech-blue">
-                    Schedule a Call
-                  </Button>
-                </div>
-              </a>
+              
             </CardContent>
           </Card>
         </div>
