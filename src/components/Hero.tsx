@@ -61,10 +61,6 @@ const Hero = () => {
           >
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-tech-blue hover:bg-gray-100 font-semibold">
-              📄 Download Resume
-            
-            </Button>
             
             <Button size="lg" variant="outline" onClick={() => handleSmoothScroll('projects')} className="border-white hover:bg-white hover:text-tech-blue text-slate-900">
               View Projects

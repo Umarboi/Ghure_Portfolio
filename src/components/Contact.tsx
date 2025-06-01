@@ -145,9 +145,6 @@ const Contact = () => {
               <p className="mb-6 text-slate-800">Seeking Instrumentation Engineer positions in oil & gas or energy sectors</p>
               <a href="public/resume.pdf" download className="inline-block">
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button className="bg-white text-tech-blue hover:bg-gray-100 font-semibold">
-                    📄 Download Resume
-                  </Button>
                   <Button variant="outline" className="border-white text-white hover:bg-white hover:text-tech-blue">
                     Schedule a Call
                   </Button>
