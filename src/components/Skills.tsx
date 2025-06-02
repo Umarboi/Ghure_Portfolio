@@ -94,7 +94,7 @@ const Skills = () => {
               {certifications.map((cert, index) => (
                 <Card key={index} className="shadow-lg hover:shadow-xl transition-shadow animate-fade-in" style={{animationDelay: `${(index + 3) * 0.2}s`}}>
                   <CardHeader>
-                    <CardTitle className="text-tech-blue text-lg">{cert.title}</CardTitle>
+                    <CardTitle className="text-tech-grey text-lg">{cert.title}</CardTitle>
                     <p className="text-gray-600">{cert.issuer}</p>
                   </CardHeader>
                   <CardContent>

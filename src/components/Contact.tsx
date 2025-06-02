@@ -142,7 +142,7 @@ const Contact = () => {
           <Card className="mt-8 bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm border-white/20 animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <CardContent className="p-6 text-center">
               <h3 className="text-xl font-semibold mb-4">Available for Opportunities</h3>
-              <p className="mb-6 text-slate-800">Seeking Instrumentation Engineer positions in oil & gas or energy sectors</p>
+              <p className="mb-6 text-slate-500">Seeking Instrumentation Engineer positions in oil & gas or energy sectors</p>
               
             </CardContent>
           </Card>

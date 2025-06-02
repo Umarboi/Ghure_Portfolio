@@ -62,7 +62,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             
-            <Button size="lg" variant="outline" onClick={() => handleSmoothScroll('projects')} className="border-white hover:bg-white hover:text-tech-blue text-slate-900">
+            <Button size="lg" variant="outline" onClick={() => handleSmoothScroll('projects')} className="border-white hover:bg-white hover:text-tech-blue text-slate-500">
               View Projects
             </Button>
           </div>

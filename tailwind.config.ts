@@ -116,9 +116,9 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.6s ease-out',
-				'slide-in-left': 'slide-in-left 0.5s ease-out',
-				'rotate-slow': 'rotate-slow 1s linear infinite'
+				'fade-in': 'fade-in 0.6s ease-out both',
+				'slide-in-left': 'slide-in-left 0.5s ease-out both',
+				'rotate-slow': 'rotate-slow 10s linear infinite'
 			},
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif'],
